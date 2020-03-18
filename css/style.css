@@ -1,0 +1,139 @@
+body {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none !important; }
+
+.font-custom {
+  font-family: "Kaushan Script", cursive; }
+
+.green {
+  color: #3a6247; }
+
+.gold {
+  color: #EDD55E; }
+
+.white {
+  color: #FFF; }
+
+.container-header {
+  background: #3a6247;
+  padding-top: 5vh;
+  padding-bottom: 0vh;
+  -webkit-filter: drop-shadow(1px 1px 5px #000); }
+
+.navbar {
+  background: #3a6247 !important;
+  margin-top: 0vh; }
+
+.navbar a {
+  color: #EDD55E !important;
+  transition: color 0.3s ease; }
+  .navbar a:hover {
+    color: #00c77f !important; }
+
+.fixed-banner {
+  width: 100vw;
+  height: 23vh;
+  background-size: contain;
+  background-image: url("../imgs/banner-home.jpg");
+  background-repeat: no-repeat; }
+
+.carousel {
+  margin-top: -1vh !important; }
+
+.product-photo {
+  height: 255px !important; }
+
+.service-container {
+  background: rgba(237, 213, 94, 0.29); }
+
+.blog-container {
+  background: #FFF; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #3a6247;
+  transition: all 0.3s ease; }
+
+.container-video {
+  background: #3a6247; }
+
+.container-newsletter {
+  background: #3a6247; }
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Procurar"; }
+
+.container-footer {
+  background: #3a6247; }
+
+.nav-pills .nav-link {
+  color: #3a6247; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #EDD55E; }
+
+.about-left-content {
+  background: #3a6247; }
+
+@media (min-width: 768px) {
+  .container-header {
+    background: #3a6247;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    -webkit-filter: drop-shadow(1px 1px 5px #000); }
+
+  .navbar {
+    background: #3a6247 !important;
+    margin-top: 5vh; }
+
+  .navbar-admin {
+    margin-top: 0vh !important; }
+
+  .navbar a {
+    color: #EDD55E !important;
+    transition: color 0.3s ease; }
+    .navbar a:hover {
+      color: #00c77f !important; }
+
+  .fixed-banner {
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../imgs/banner-home.jpg");
+    background-repeat: no-repeat; }
+
+  .carousel {
+    margin-top: -1vh !important; }
+
+  .product {
+    cursor: pointer; }
+
+  img.product-photo {
+    height: 255px !important; }
+
+  .category-footer {
+    list-style-type: none !important; }
+
+  .container-footer a {
+    color: #FFF !important; }
+
+  .container-contact-info {
+    background: #e8e8e8;
+    height: auto;
+    border-radius: 5px 0px 0px 5px; }
+
+  .container-contact-form {
+    background: #3a6247;
+    height: auto;
+    border-radius: 0px 5px 5px 0px; }
+
+  .about-left-content {
+    background: #3a6247; } }
+@media (min-width: 1980px) {
+  .fixed-banner {
+    width: 100vw;
+    height: 71vh;
+    background-image: url("../imgs/banner-home.jpg");
+    background-repeat: no-repeat; } }
+
+/*# sourceMappingURL=style.css.map */

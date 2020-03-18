@@ -1,0 +1,44 @@
+@import 'repository.less';
+
+div.carousel{margin-top: @mt-slider-xs;}
+div.embed-responsive{margin-top: @mt-embed-video-xs;}
+.green-title{color: @green-title-color;}
+div.container-newsletter{margin-top: @mt-newsletter-btn-xs;}
+div.content-footer{height: auto; padding: 0.1%; background: #A2B169; margin-top: 5%;}
+div.container-logo{background: @bg-green-default-spa; height: 90px; padding-top: 1%;}
+div.container-logo > a > img{height: 80px; margin-left: 28vw;}
+button.navbar-toggle{background-color: @bg-green-default-spa;}
+button.navbar-toggle > span.icon-bar{background-color: @bg-gold-hamburger-menu-icon !important;}
+div.dark-green-footer{background: @bg-green-default-spa; margin-top: 0%; color: @white;}
+.carousel-control.right, .carousel-control.left{background: @bg-controls-slider;}
+address.default-address{margin-top: @mt-address;}
+.btn-pagSeguro{margin-top: 3%;}
+.bg-pagSeguro{background: @bg-green-default-spa;}
+.modal-custom{margin-top: 25vh;}
+.modal-header{border-bottom: 0px;}
+body.bg-login{background: @bg-green-default-spa;}
+.white{color: @white;}
+.custom-form-control{background: transparent; border: 0; -webkit-box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, .075); color: @white;}
+div.container-login{margin-top: 10%;}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+    div.carousel{margin-top: @mt-slider-lg;}
+    div.container-logo{background: @bg-green-default-spa; height: @height-container-logo-lg; padding-top: 1%;}
+    div.container-logo > a > img{height: @height-logo-lg; margin-left: 4vw; margin-top: 1vh;}
+    .carousel-control.right, .carousel-control.left{background: @bg-controls-slider;}
+    div.carousel-inner > .item > img{height: 500px; min-width: 100%;}
+    
+    div.container-right-social-calendar{margin-top: 2vh;}
+    div.container-right-social-calendar > .alert{margin-top: 3.5vh;}
+    .mt-lg-5{margin-top: @mt-lg-5;}
+    img.img-treatments{filter: grayscale(80%); transition: filter 0.5s ease;&:hover{filter: grayscale(0%);}}
+    
+    div.embed-responsive{margin-top: 20% !important;}
+    .contact-logo{margin-top: 1vh;margin-left: 5vw; color: #edd55e;}
+    .whats-logo{width: 1vw;}
+    .vip-client-text{margin-top: -12vh; border: 5px solid #EDD55E; padding: 0.5%; color: #EDD55E;transition: all 0.3s ease;&:hover{color: #FFF; border: 5px solid #FFF;}}
+    .video-player{margin-top: -7vh;}
+}
